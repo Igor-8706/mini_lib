@@ -8,7 +8,7 @@ const autoprefixer = require("autoprefixer");
 const cleanCSS = require("gulp-clean-css");
 const postcss = require("gulp-postcss");
 
-const dist = "./dist/";
+const dist = "C:/OSPanel/domains/parser/dist";
 const prod = "./build/";
 
 gulp.task("copy-html", () => {
